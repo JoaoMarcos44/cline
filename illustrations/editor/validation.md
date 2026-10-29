@@ -25,7 +25,7 @@ The test and fix are separate commits, `50c81c8a3e48cb9c6771d13244698de6da360825
 
 Issue and PR searches covered open and closed states with `editor concurrent`, `editor serialize`, `editor race`, `editor lost update`, `same file parallel`, and `non-overlapping`. The reviewed reports #11784, #11598, #12219 and #14981 describe other mechanisms. No matching report was found by those searches.
 
-This patch coordinates normalized paths in one module instance and process. It does not coordinate other processes, custom executors, symbolic-link aliases, or case aliases on macOS. The existing outer timeout does not cancel an edit, including an edit waiting for the queue. Full application and monorepo builds were not run.
+This patch coordinates normalized paths in one module instance and process. It does not coordinate other processes, custom executors, symbolic-link aliases, or case aliases on macOS. The existing outer timeout does not cancel an edit, including an edit waiting for the queue. Tests ran with Node 22.16.0 and Bun 1.3.11, which differs from the repository's requested Bun 1.4.2. Full application and monorepo builds were not run.
 
 Issue: https://github.com/cline/cline/issues/15417
 

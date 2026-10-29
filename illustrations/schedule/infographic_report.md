@@ -8,4 +8,4 @@ The correction advances along absolute time and matches the intended calendar ti
 
 Issue: https://github.com/cline/cline/issues/15418
 
-The image was generated with the native image generation tool. The theme is inspired by Dark Souls. Its illustration explains the mechanism and is not test evidence. The exact prompt is in `../../image-prompts.json`.
+The image was generated with the native image generation tool. The theme is inspired by Dark Souls. Its illustration explains the mechanism and is not test evidence. The exact prompt is in `../image-prompts.json`.

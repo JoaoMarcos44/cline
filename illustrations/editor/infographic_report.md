@@ -8,4 +8,4 @@ The correction gives each file an ordered queue shared by editor instances in th
 
 Issue: https://github.com/cline/cline/issues/15417
 
-The image was generated with the native image generation tool. The theme is inspired by Sekiro. Its illustration explains the mechanism and is not test evidence. The exact prompt is in `../../image-prompts.json`.
+The image was generated with the native image generation tool. The theme is inspired by Sekiro. Its illustration explains the mechanism and is not test evidence. The exact prompt is in `../image-prompts.json`.
